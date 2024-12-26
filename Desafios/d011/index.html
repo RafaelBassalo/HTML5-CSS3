@@ -6,23 +6,58 @@
     <title>Astronauta</title>
     <style>
         body{
-            background-image: url('imagens/espaco.jpg') ;
-            background-size: 100%;
+           background-color: lightgray; 
+           height: 100%;
+           min-height: 100%;
+           margin: auto;
            
 
         }
 
-        .astronauta{
+        #espaco{
+            background-image: url('imagens/espaco.jpg') ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            height: 775px;
+            width: 100%;
+            background-attachment: fixed;
+            
+            
+        }
+
+
+        div#astronauta{
+
             background-image: url('imagens/astronauta.png');
-            background-size: 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: absolute;
+            height: 400px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            margin: auto;
+
+            transform: translate(-50%,-50%);
+
+           
+           
+            
+            
+            
         }
     </style>
 </head>
 <body>
-    <main class="astronauta">
+    <div id="espaco">
+        
+        <div id="astronauta">
 
-    </main>
+        </div>
    
+    </div>
+    
     
 </body>
-</html>
+</html
