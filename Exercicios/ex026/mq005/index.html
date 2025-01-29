@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Bassalo News</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <nav id="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Esportes</a></li>
+                <li><a href="#">Entretenimento</a></li>
+                <li><a href="#">Saúde</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <article>
+            <h2>História do Futebol</h2>
+            <p>
+                O primeiro registro de um desporto semelhante ao futebol atual nos territórios bretões vem do livro Descriptio Nobilissimae Civitatis Londinae, de Willian Fitztephe, em 1175. A obra cita um jogo (semelhante ao soule) durante a Schrovetide (espécie de Terça-feira Gorda), em que habitantes de várias cidades inglesas saíram à rua chutando uma bola de couro para comemorar a expulsão dos dinamarqueses. A bola simbolizava a cabeça de um invasor.
+                
+          
+            </p>
+            <p>
+                Por muito tempo o futebol foi meramente um festejo para os ingleses. Lentamente o desporto passou a ficar cada vez mais popular. Tanto que, no século XVI, a violência do jogo era tamanha, que o escritor Philip Stubbes escreveu certa vez: "Um jogo bárbaro, que só estimula a cólera, a inimizade, o ódio e a malícia." - O que de fato, era verdade. Era comum no desporto pernas partidas, roupas rasgadas ou dentes arrancados. Há noticias até de acidentes fatais, como a de um jogador que se afogou ao pular de uma ponte para apanhar a bola. Houve também muitos assassinatos devido a rivalidade entre equipes. Por isso, o desporto ficou conhecido como , "futebol de massa".
+            </p>
+            <p>
+                Em 1700, foram proibidas as formas violentas do futebol. O desporto, então, teve que mudar, e foi ganhando aspectos mais modernos. Em 1710, as escolas de Covent Garden, Strand e Fleet Street passaram a adotar o futebol como atividade física. Com isso, ganhou novos adeptos, que saíram de desporto como o tiro desportivo e a esgrima. Com a difusão do desporto pelos colégios do país, o problema passou a ser os diferentes tipos de regras em cada escola. Duas regras de diferentes colégios ganharam destaque na época: um jogo só com o uso dos pés, e o outro com o uso dos pés e das mãos. Criaram-se, assim, o football e o rugby, em 1846.
+            </p>
+            <p>
+                Em 1848, a Cambridge University Association Football Club elaborou as regras do jogo, valorizando a destreza ao invés da força, proibindo se agarrar a bola e a entrada dura, tendo sido essas regras adotadas pela Football Association em 1863, criando o futebol como nós o conhecemos hoje, que com a adoção de outras regras que foram adotadas posteriormente, colaboraram para manter o espírito do jogo elaborado em Cambridge.
+            </p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block'){
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
